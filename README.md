@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NordFlash — Business Landing (Next.js 14 + Tailwind + TS)
+One-page landing for **nordflash.com**.
 
-## Getting Started
-
-First, run the development server:
-
-```bash
+## Run
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy
+Push to GitHub, import on Vercel, attach **nordflash.com**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Edit content
+- components/*.tsx for text
+- data/projects.ts for portfolio cards
+- Contact email in components/Contact.tsx
+- Prices in components/Packages.tsx
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## instalation
+- npm install framer-motion
+- npm install lucide-react
 
-To learn more about Next.js, take a look at the following resources:
+# NEXT
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- dd /admin protected with Clerk for a tiny analytics dashboard
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Add Prisma + Neon if you want a simple contact form that saves to DB
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Hook in GA4 for basic tracking
