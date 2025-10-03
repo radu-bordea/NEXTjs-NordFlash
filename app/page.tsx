@@ -14,8 +14,8 @@ export default function HomePage() {
       <NavBar />
       <Hero />
       <Services />
-      {/* <Stack />
-      <Packages />
+      <Stack />
+      {/* <Packages />
       <Work />
       <About />
       <Contact /> */}

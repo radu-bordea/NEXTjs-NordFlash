@@ -25,9 +25,9 @@ const items = [
 
 export default function Services() {
   return (
-    <section id="services" className="section text-slate-600">
-      <h2 className="section-title">Services</h2>
-      <p className="section-sub">
+    <section id="services" className="section text-slate-600 border-y-1 border-slate-400 mb-4 py-4">
+      <h2 className="section-title text-2xl text-amber-600">Services</h2>
+      <p>
         Small to medium projects with clear scope and fast delivery.
       </p>
       <div className="grid md:grid-cols-4 gap-8 md:gap-32 mt-10">

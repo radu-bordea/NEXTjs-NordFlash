@@ -5,7 +5,7 @@ import me from "../public/assets/me.png"
 
 export default function Hero() {
   return (
-    <header className="relative borderoverflow-hidden my-4 text-slate-600">
+    <header className="relative borderoverflow-hidden my-4 text-slate-600 pb-8">
       <div className="section">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
