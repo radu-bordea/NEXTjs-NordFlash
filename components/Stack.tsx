@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import {
   SiNextdotjs,
   SiTypescript,
@@ -27,7 +27,7 @@ const tech = [
   { name: "Vercel", icon: <SiVercel /> },
 ];
 
-const container = {
+const container: Variants = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
@@ -35,21 +35,24 @@ const container = {
   },
 };
 
-const item = {
+const item: Variants = {
   hidden: { opacity: 0, y: 10, scale: 0.98 },
   show: {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { duration: 0.35, ease: "easeOut" },
+    transition: {
+      duration: 0.35,
+      ease: [0.16, 1, 0.3, 1], // cubic-bezier (easeOut)
+    },
   },
 };
 
 export default function Stack() {
   return (
-    <section id="stack" className="section text-slate-600">
+    <section id="stack" className="section">
       <h2 className="section-title text-2xl text-amber-600">Tech Stack</h2>
-      <p>
+      <p className="section-sub">
         Modern tools — simple, maintainable, and fast.
       </p>
 
