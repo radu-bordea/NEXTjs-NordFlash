@@ -50,7 +50,7 @@ const item: Variants = {
 
 export default function Stack() {
   return (
-    <section id="stack" className="section">
+    <section id="stack" className="mb-6">
       <h2 className="section-title text-2xl text-amber-600">Tech Stack</h2>
       <p className="section-sub">
         Modern tools — simple, maintainable, and fast.
