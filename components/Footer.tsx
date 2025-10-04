@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-slate-400 py-8">
-      <div className="text-sm text-slate-700 flex flex-col md:flex-row items-center justify-between gap-2">
+    <footer className="py-6">
+      <div className="text-sm text-slate-600 flex flex-col md:flex-row items-center justify-between gap-2">
         <p>© {new Date().getFullYear()} NordFlash — Operated by Radu Bordea Digital Solutions ENK (Bodø, Norway)</p>
         <div className="flex gap-4">
           <a className="hover:text-brand" href="#services">Services</a>

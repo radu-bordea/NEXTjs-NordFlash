@@ -32,10 +32,9 @@ export default function Hero() {
           </div>
           <div className="relative mx-auto">
             <Image
-              
               src={me}
-              width={500}
-              height={500}
+              width={200}
+              height={200}
               alt="My Picture"
             />
           </div>

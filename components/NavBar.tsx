@@ -11,13 +11,13 @@ const links = [
 export default function NavBar() {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="sticky top-0 z-30 border-b bg-white border-slate-800 text-slate-600">
+    <nav className="sticky top-0 z-30 border-b px-4 bg-slate-100 border-slate-800 text-slate-600">
       <div className="flex items-center justify-between h-16">
         <a href="#" className="font-semibold text-lg">
           Nord<span className="text-brand">Flash</span>
         </a>
         <button
-          className="md:hidden p-2 border border-slate-700 rounded-lg"
+          className="md:hidden py-1 px-2 border  rounded-lg"
           onClick={() => setOpen((v) => !v)}
           aria-label="Toggle Menu"
         >
