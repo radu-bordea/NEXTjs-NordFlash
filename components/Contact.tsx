@@ -60,7 +60,7 @@ export default function Contact() {
               <FaInstagram size={24} />
             </a>
             <a
-              href="linkedin.com/in/radu-bordea-695155220"
+              href="https://www.linkedin.com/in/radu-bordea-695155220/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sky-700 hover:text-sky-800 transition-colors"
