@@ -52,7 +52,7 @@ export default function Stack() {
   return (
     <section
       id="stack"
-      className="mb-6 pb-6 text-slate-600 border-b border-slate-400"
+      className="mt-4 mb-6 pb-6 text-slate-600 border-b border-slate-200"
     >
       <h2 className="section-title text-2xl text-amber-600">Tech Stack</h2>
       <p className="section-sub">

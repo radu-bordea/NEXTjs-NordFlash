@@ -11,7 +11,7 @@ const links = [
 export default function NavBar() {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="sticky top-0 z-30 border-b px-4 bg-slate-100 border-slate-800 text-slate-600">
+    <nav className="sticky top-0 z-30 border-b px-4 bg-slate-100 border-slate-300 text-slate-600">
       <div className="flex items-center justify-between h-16">
         <a href="#" className="font-semibold text-lg">
           Nord<span className="text-brand">Flash</span>

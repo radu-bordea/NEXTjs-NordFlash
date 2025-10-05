@@ -4,8 +4,8 @@ import Services from "../components/Services";
 import Stack from "../components/Stack";
 import Packages from "../components/Packages";
 import Work from "../components/Work";
-// import About from "../components/About";
-// import Contact from "../components/Contact";
+import About from "../components/About";
+import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 export default function HomePage() {
@@ -17,8 +17,8 @@ export default function HomePage() {
       <Packages />
       <Stack />
       <Work />
-      {/*<About />
-      <Contact /> */}
+      <About />
+      <Contact />
       <Footer />
     </main>
   );

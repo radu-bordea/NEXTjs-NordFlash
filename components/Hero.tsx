@@ -18,7 +18,7 @@ export default function Hero() {
             </motion.h1>
             <p className="mt-4 max-w-xl">
               I’m a Next.js developer building small to medium full‑stack
-              projects (Next.js, Prisma, Neon, TypeScript, Tailwind) with
+              projects (Next.js, Prisma ORM, Neon Serverless Postgres Database, TypeScript, Tailwind) with
               optional auth (Clerk/Next‑Auth) and analytics.
             </p>
             <div className="mt-8 flex gap-4">
