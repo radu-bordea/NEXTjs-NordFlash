@@ -85,12 +85,19 @@ export default function Packages() {
             <p className="mt-4 text-3xl font-bold text-center text-amber-600">
               6 000 <span className="text-base font-medium">NOK</span>
             </p>
+
+            <p className="text-center text-xs text-slate-500">
+              ≈ <span className="font-medium">€520 / $560</span> (approx.)
+            </p>
+
             <p className="text-center text-xs text-slate-500">
               Intro offer ·{" "}
               <span className="text-sm line-through decoration-amber-400/60">
                 8 000 NOK
               </span>{" "}
               normal price
+              <br />
+              <span className="text-[11px] text-slate-400">(~€700 / $745)</span>
             </p>
 
             <ul className="mt-4 space-y-2 text-sm">
@@ -131,12 +138,21 @@ export default function Packages() {
             <p className="mt-4 text-3xl font-bold text-center text-sky-600">
               10 000 <span className="text-base font-medium">NOK</span>
             </p>
+
+            <p className="text-center text-xs text-slate-500">
+              ≈ <span className="font-medium">€870 / $930</span> (approx.)
+            </p>
+
             <p className="text-center text-xs text-slate-500">
               Intro offer ·{" "}
               <span className="text-sm line-through decoration-sky-400/60">
                 16 000 NOK
               </span>{" "}
               normal price
+              <br />
+              <span className="text-[11px] text-slate-400">
+                (~€1 390 / $1 490)
+              </span>
             </p>
 
             <ul className="mt-4 space-y-2 text-sm">
@@ -179,11 +195,18 @@ export default function Packages() {
             <p className="mt-4 text-3xl font-bold text-center text-emerald-600">
               500 <span className="text-base font-medium">NOK / hour</span>
             </p>
+
+            <p className="text-center text-xs text-slate-500">
+              ≈ <span className="font-medium">€43 / $47</span> (approx.)
+            </p>
+
             <p className="text-center text-xs text-slate-500">
               Planned standard rate:{" "}
               <span className="text-sm line-through decoration-emerald-400/60">
                 700 NOK / hour
               </span>
+              <br />
+              <span className="text-[11px] text-slate-400">(~€60 / $65)</span>
             </p>
 
             <div className="mt-4 text-sm text-slate-600 space-y-3">

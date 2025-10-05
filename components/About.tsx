@@ -21,7 +21,7 @@ export default function About() {
 
         <p className="mt-5 text-neutral-600 leading-relaxed">
           I graduated in <strong>2024</strong> from{" "}
-          <strong>Åland University of Applied Sciences</strong>
+          <strong>Åland University of Applied Sciences </strong>
           in Mariehamn, Finland. Along the way, I developed a strong passion for
           combining 
           <strong> clean design</strong> with{" "}
